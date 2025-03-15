@@ -32,6 +32,13 @@ python3 bin/summarize_progress.py "$DATA_DIR/all.csv" "$DATA_DIR/arealist.csv" "
 echo "残り数カウント"
 python3 bin/summarize_progress_absolute.py "$DATA_DIR/all.csv" "$DATA_DIR/arealist.csv" "$DATA_DIR/summary_absolute.json"
 
+# 常設掲示板データ
+curl -sL "$GCS_URL?sheetName=signboard" > "$DATA_DIR/signboard.csv"
+curl -sL "$GCS_URL?sheetName=signboardstatus" > "$DATA_DIR/groupstatus.csv"
+
+python3 bin/signboard2json.py public/data/signboard.csv public/data/
+python3 bin/groupstatus2json.py public/data/groupstatus.csv public/data/
+
 # Git 操作
 git add -N .
 

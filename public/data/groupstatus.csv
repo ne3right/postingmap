@@ -1,0 +1,8 @@
+groupname,id,name,color,note
+チームxxx,0,未完了,#FFDFBA,
+チームxxx,1,完了,#B3FFBA,
+チームxxx,2,要営業,#E1BAFF,
+チームxxx,3,要設置（営業済）,#BAE1FF,
+チームxxx,4,撤去済,#FFFFBA,
+チームxxx,5,要補修,#FFB3BA,
+チームxxx,6,その他,#0288D1,
