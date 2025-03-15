@@ -1,0 +1,46 @@
+{
+  "チームxxx": [
+    {
+      "id": 0,
+      "name": "未完了",
+      "color": "#FFDFBA",
+      "note": ""
+    },
+    {
+      "id": 1,
+      "name": "完了",
+      "color": "#B3FFBA",
+      "note": ""
+    },
+    {
+      "id": 2,
+      "name": "要営業",
+      "color": "#E1BAFF",
+      "note": ""
+    },
+    {
+      "id": 3,
+      "name": "要設置（営業済）",
+      "color": "#BAE1FF",
+      "note": ""
+    },
+    {
+      "id": 4,
+      "name": "撤去済",
+      "color": "#FFFFBA",
+      "note": ""
+    },
+    {
+      "id": 5,
+      "name": "要補修",
+      "color": "#FFB3BA",
+      "note": ""
+    },
+    {
+      "id": 6,
+      "name": "その他",
+      "color": "#0288D1",
+      "note": ""
+    }
+  ]
+}

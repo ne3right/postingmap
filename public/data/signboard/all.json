@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "groupname": "チームxxx",
+        "boardid": "掲示板1",
+        "boardname": "国会議事堂",
+        "lat": 35.676064630441154,
+        "long": 139.74482542744855,
+        "status": 0,
+        "lastupdate": "",
+        "note": "",
+        "comment": ""
+    },
+    {
+        "id": 2,
+        "groupname": "チームxxx",
+        "boardid": "掲示板2",
+        "boardname": "こくみんみんしゅとう本部",
+        "lat": 35.67721379505882,
+        "long": 139.74085654316602,
+        "status": 1,
+        "lastupdate": "",
+        "note": "",
+        "comment": ""
+    }
+]
